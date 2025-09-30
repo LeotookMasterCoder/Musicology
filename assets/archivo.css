@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.encabezado {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.contenedor-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    left: 16px;
+}
+
+.lupa {
+    cursor: pointer;
+}
+
+.Inicio {
+    background: url('../images/background.png') no-repeat center center/cover;
+    padding: 30px 149px;
+    text-align: left;
+    width: max-content;
+}
+
+.contenedor-inicio {
+    position: relative;
+    right: 320px;
+    top: 60px;
+    font-family: Montserrat, sans-serif;
+    padding: 100px;
+}
+.lorem {
+    position: relative;
+    left: 108px;
+    top: 5px;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+}
+.titulo {
+    font-family: Montserrat, sans-serif;
+    font-size: 100px;
+    position: relative;
+    left: 105px;
+    top: 20px;
+}
+
+.registrarse {
+    position: relative;
+    top: 50px;
+    right: 375px;
+    background-color: #ff6600;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 22px;
+    width: 270px;
+    cursor: pointer;
+}
+
+.pista-baile {
+    background-color: #ff6600;
+    padding: 50px 20px;
+    text-align: center;
+}
+.Tour {
+    display: flex;
+    justify-content: center;
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+}
+
+.baile-contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.objetos-bailes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.objetos-baile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.objetos-baile img {
+    width: 100%;
+    height: auto;
+}
+
+.objetos-baile h3 {
+    margin: 10px 0 5px;
+}
+
+.objetos-baile p {
+    font-size: 3px;
+}
+
+.membrecia {
+    background-color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contenedor-membrecia {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.precios {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.precio {
+    background-color: #ff6600;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.propaganda {
+    margin-bottom: 10px;
+}
+
+.propaganda h3 {
+    margin: 10px 0;
+}
+
+.propaganda p {
+    margin-bottom: 20px;
+}
+
+.costo {
+    background-color: #333;
+    font-family: oswald, sans-serif;
+    color: #fff;
+    padding: 17px 110px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.pie {
+    background-color: #ff6600;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 1278px) {
+    
+}
+@media (min-width:768px) and (max-width:1277px) {
+}
+
+@media (min-width: 352px) and (max-width: 767px) {
+}
